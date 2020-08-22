@@ -46,3 +46,27 @@ button {
 .printer-img {
   width: 50%;
 }
+
+@media print {
+  .app-main {
+    display: flex;
+  }
+
+  .bull-div {
+    width: 100%;
+    margin: 10px;
+  }
+
+  .printer-div {
+    width: 100%;
+    margin: 10px;
+  }
+
+  .bull-img {
+    display: none;
+  }
+
+  .printer-img {
+    display: none;
+  }
+}
